@@ -2286,9 +2286,9 @@ function parseDateTime(dateStr, timeStr) {
 function updateTeamList(teams) {
     teamList.innerHTML = "";
     if (teams.length === 0) {
-        const teamOption = document.createElement("option");
-        teamOption.text = "該当するイベントなし";
-        teamList.appendChild(teamOption);
+        const div = document.createElement("div");
+        div.textContent = "該当するイベントなし";
+        teamList.appendChild(div);
         return;
     }
     
@@ -2298,18 +2298,26 @@ function updateTeamList(teams) {
     
     // お気に入りチームを上に（星マーク付き）
     favoriteTeams.forEach(team => {
-        const option = document.createElement("option");
-        option.text = `⭐ ${team.name}`;
-        option.value = team.name;
-        teamList.appendChild(option);
+        const label = document.createElement("label");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = team.name;
+        checkbox.classList.add("team-checkbox");
+        label.textContent = `⭐ ${team.name}`;
+        label.prepend(checkbox);
+        teamList.appendChild(label);
     });
     
     // 非お気に入りチーム
     nonFavoriteTeams.forEach(team => {
-        const option = document.createElement("option");
-        option.text = team.name;
-        option.value = team.name;
-        teamList.appendChild(option);
+        const label = document.createElement("label");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = team.name;
+        checkbox.classList.add("team-checkbox");
+        label.textContent = team.name;
+        label.prepend(checkbox);
+        teamList.appendChild(label);
     });
 }
 
@@ -2317,23 +2325,27 @@ function updateTeamList(teams) {
 function updateFavoriteTeamList() {
     favoriteTeamList.innerHTML = "";
     if (favorites.length === 0) {
-        const option = document.createElement("option");
-        option.text = "お気に入りチームがありません";
-        favoriteTeamList.appendChild(option);
+        const div = document.createElement("div");
+        div.textContent = "お気に入りチームがありません";
+        favoriteTeamList.appendChild(div);
         return;
     }
     
     favorites.forEach(teamName => {
-        const option = document.createElement("option");
-        option.text = teamName;
-        option.value = teamName;
-        favoriteTeamList.appendChild(option);
+        const label = document.createElement("label");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = teamName;
+        checkbox.classList.add("favorite-checkbox");
+        label.textContent = teamName;
+        label.prepend(checkbox);
+        favoriteTeamList.appendChild(label);
     });
 }
 
 // お気に入りボタンの状態を更新
 function updateFavoriteButton() {
-    const selectedTeams = Array.from(teamList.selectedOptions).map(option => option.value);
+    const selectedTeams = Array.from(teamList.querySelectorAll(".team-checkbox:checked")).map(checkbox => checkbox.value);
     if (selectedTeams.length === 0) {
         favoriteButton.textContent = "お気に入りに追加/解除";
         favoriteButton.classList.remove("favorited");
@@ -2486,9 +2498,9 @@ eventInput.addEventListener("input", () => {
     
     // イベント名が空の場合、デフォルトメッセージを表示
     if (!eventName) {
-        const teamOption = document.createElement("option");
-        teamOption.text = "イベントを入力してチームを表示";
-        teamList.appendChild(teamOption);
+        const div = document.createElement("div");
+        div.textContent = "イベントを入力してチームを表示";
+        teamList.appendChild(div);
         
         const scheduleOption = document.createElement("option");
         scheduleOption.text = "チームを選択してスケジュールを表示";
@@ -2514,9 +2526,9 @@ eventInput.addEventListener("input", () => {
     
     // チームが見つからない場合
     if (teams.length === 0) {
-        const teamOption = document.createElement("option");
-        teamOption.text = "該当するイベントなし";
-        teamList.appendChild(teamOption);
+        const div = document.createElement("div");
+        div.textContent = "該当するイベントなし";
+        teamList.appendChild(div);
         
         const scheduleOption = document.createElement("option");
         scheduleOption.text = "チームを選択してスケジュールを表示";
@@ -2558,59 +2570,61 @@ eventInput.addEventListener("input", () => {
 });
 
 // チーム選択時のイベントリスナー
-teamList.addEventListener("change", () => {
-    // 選択されたチームを取得
-    const selectedTeams = Array.from(teamList.selectedOptions).map(option => option.value);
-    
-    // favoriteTeamListの選択を解除
-    Array.from(favoriteTeamList.options).forEach(option => {
-        option.selected = false;
-    });
-    
-    // スケジュールを更新
-    updateSchedules(selectedTeams);
-    
-    // filteredTeamListをクリア
-    filteredTeamList.innerHTML = "";
-    const filteredOption = document.createElement("option");
-    filteredOption.text = "会場を選択してチームを表示";
-    filteredTeamList.appendChild(filteredOption);
-    
-    updateFavoriteButton();
+teamList.addEventListener("change", (event) => {
+    if (event.target.classList.contains("team-checkbox")) {
+        // お気に入りチームの選択を解除
+        Array.from(favoriteTeamList.querySelectorAll(".favorite-checkbox")).forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        
+        // 選択されたチームを取得
+        const selectedTeams = Array.from(teamList.querySelectorAll(".team-checkbox:checked")).map(checkbox => checkbox.value);
+        
+        // スケジュールを更新
+        updateSchedules(selectedTeams);
+        
+        // filteredTeamListをクリア
+        filteredTeamList.innerHTML = "";
+        const filteredOption = document.createElement("option");
+        filteredOption.text = "会場を選択してチームを表示";
+        filteredTeamList.appendChild(filteredOption);
+        
+        updateFavoriteButton();
+    }
 });
 
 // お気に入りチーム選択時のイベントリスナー
-favoriteTeamList.addEventListener("change", () => {
-    // 選択されたお気に入りチームを取得
-    const selectedFavoriteTeams = Array.from(favoriteTeamList.selectedOptions).map(option => option.value);
-    
-    // teamListの選択を解除
-    Array.from(teamList.options).forEach(option => {
-        option.selected = false;
-    });
-    
-    // teamListで選択されたお気に入りチームを選択状態に
-    Array.from(teamList.options).forEach(option => {
-        if (selectedFavoriteTeams.includes(option.value)) {
-            option.selected = true;
-        }
-    });
-    
-    // スケジュールを更新
-    updateSchedules(selectedFavoriteTeams);
-    
-    // filteredTeamListをクリア
-    filteredTeamList.innerHTML = "";
-    const filteredOption = document.createElement("option");
-    filteredOption.text = "会場を選択してチームを表示";
-    filteredTeamList.appendChild(filteredOption);
-    
-    updateFavoriteButton();
+favoriteTeamList.addEventListener("change", (event) => {
+    if (event.target.classList.contains("favorite-checkbox")) {
+        // チームリストの選択を解除
+        Array.from(teamList.querySelectorAll(".team-checkbox")).forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        
+        // 選択されたお気に入りチームを取得
+        const selectedFavoriteTeams = Array.from(favoriteTeamList.querySelectorAll(".favorite-checkbox:checked")).map(checkbox => checkbox.value);
+        
+        // teamListで選択されたお気に入りチームを選択状態に
+        Array.from(teamList.querySelectorAll(".team-checkbox")).forEach(checkbox => {
+            checkbox.checked = selectedFavoriteTeams.includes(checkbox.value);
+        });
+        
+        // スケジュールを更新
+        updateSchedules(selectedFavoriteTeams);
+        
+        // filteredTeamListをクリア
+        filteredTeamList.innerHTML = "";
+        const filteredOption = document.createElement("option");
+        filteredOption.text = "会場を選択してチームを表示";
+        filteredTeamList.appendChild(filteredOption);
+        
+        updateFavoriteButton();
+    }
 });
 
 // お気に入りボタンのイベントリスナー
 favoriteButton.addEventListener("click", () => {
-    const selectedTeams = Array.from(teamList.selectedOptions).map(option => option.value);
+    const selectedTeams = Array.from(teamList.querySelectorAll(".team-checkbox:checked")).map(checkbox => checkbox.value);
     if (selectedTeams.length === 0) return;
     
     const allFavorited = selectedTeams.every(team => favorites.includes(team));
