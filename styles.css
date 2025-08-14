@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', 'Noto Sans JP', sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #a7f3d0);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #2d3748;
+    font-size: 1.1em;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #4c51bf;
+    box-shadow: 0 0 8px rgba(76, 81, 191, 0.3);
+    outline: none;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95em;
+    background-color: #f7fafc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select:focus {
+    border-color: #4c51bf;
+    box-shadow: 0 0 8px rgba(76, 81, 191, 0.3);
+    outline: none;
+}
+
+select option {
+    padding: 10px;
+    background: #fff;
+    color: #2d3748;
+}
+
+select[multiple] {
+    background-color: #f7fafc;
+}
+
+select[multiple] option:checked {
+    background: #4c51bf;
+    color: white;
+}
+
+.team-selection {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#favoriteButton {
+    padding: 10px;
+    background-color: #4c51bf;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#favoriteButton:hover {
+    background-color: #3b46a3;
+}
+
+#favoriteButton.favorited {
+    background-color: #f6e05e;
+    color: #2d3748;
+}
+
+#combinedScheduleList option.friday {
+    background-color: #fefcbf;
+}
+
+#combinedScheduleList option.saturday {
+    background-color: #bee3f8;
+}
+
+#combinedScheduleList option.sunday {
+    background-color: #fed7d7;
+}
+
+#favoriteTeamList option:checked {
+    background: #4c51bf;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    .container {
+        padding: 15px;
+        max-width: 95%;
+    }
+
+    label {
+        font-size: 1em;
+        margin: 10px 0 3px;
+    }
+
+    input[type="text"], select, #favoriteButton {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    select[size="5"] {
+        height: 120px;
+    }
+
+    .team-selection {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #favoriteButton {
+        width: 100%;
+        margin-top: 5px;
+    }
+}

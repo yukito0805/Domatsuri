@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>イベント検索</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <label for="eventInput">イベント名を入力:</label>
+        <input type="text" id="eventInput" placeholder="例: にっぽんど真ん中祭り">
+        
+        <label for="teamList">チーム選択（複数選択可）:</label>
+        <div class="team-selection">
+            <select id="teamList" multiple size="5">
+                <option>イベントを入力してチームを表示</option>
+            </select>
+            <button id="favoriteButton">お気に入りに追加/解除</button>
+        </div>
+        
+        <label for="favoriteTeamList">お気に入りチーム（複数選択可）:</label>
+        <select id="favoriteTeamList" multiple size="5">
+            <option>お気に入りチームを表示</option>
+        </select>
+        
+        <label for="scheduleList">選択チームのスケジュール:</label>
+        <select id="scheduleList" size="5">
+            <option>チームを選択してスケジュールを表示</option>
+        </select>
+        
+        <label for="combinedScheduleList">選択チームの合算スケジュール:</label>
+        <select id="combinedScheduleList" size="5">
+            <option>複数チームを選択して合算スケジュールを表示</option>
+        </select>
+        
+        <label for="venueList">会場選択:</label>
+        <select id="venueList" size="5">
+            <option>イベントを入力して会場を表示</option>
+        </select>
+        
+        <label for="filteredTeamList">会場で演舞するチーム:</label>
+        <select id="filteredTeamList" size="5">
+            <option>会場を選択してチームを表示</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
