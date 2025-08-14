@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>イベント検索</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -10,18 +11,14 @@
         <label for="eventInput">イベント名を入力:</label>
         <input type="text" id="eventInput" placeholder="例: にっぽんど真ん中祭り">
         
-        <label for="teamList">チーム選択（複数選択可）:</label>
+        <label>チーム選択（複数選択可）:</label>
         <div class="team-selection">
-            <select id="teamList" multiple size="5">
-                <option>イベントを入力してチームを表示</option>
-            </select>
+            <div id="teamList" class="checkbox-list"></div>
             <button id="favoriteButton">お気に入りに追加/解除</button>
         </div>
         
-        <label for="favoriteTeamList">お気に入りチーム（複数選択可）:</label>
-        <select id="favoriteTeamList" multiple size="5">
-            <option>お気に入りチームを表示</option>
-        </select>
+        <label>お気に入りチーム（複数選択可）:</label>
+        <div id="favoriteTeamList" class="checkbox-list"></div>
         
         <label for="scheduleList">選択チームのスケジュール:</label>
         <select id="scheduleList" size="5">
@@ -29,7 +26,7 @@
         </select>
         
         <label for="combinedScheduleList">選択チームの合算スケジュール:</label>
-        <select id="combinedScheduleList" size="5">
+        <select id="combinedScheduleList" size="10">
             <option>複数チームを選択して合算スケジュールを表示</option>
         </select>
         
