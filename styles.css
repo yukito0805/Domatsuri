@@ -180,4 +180,9 @@ select option {
         width: 18px;
         height: 18px;
     }
+
+}
+#combinedScheduleList option {
+    white-space: normal;
+    line-height: 1.5;
 }
