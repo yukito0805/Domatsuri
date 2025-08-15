@@ -2421,7 +2421,7 @@ function updateSchedules(selectedTeams) {
     } else {
         combinedSchedules.forEach(({ teamName, schedule }) => {
             const option = document.createElement("option");
-            option.text = `${schedule.date} ${schedule.time} ${teamName} ${schedule.venue}`;
+            option.innerHTML = `${schedule.date} ${schedule.time} ${teamName}<br>${schedule.venue}`;
             if (schedule.date.includes("8月29日")) {
                 option.classList.add("friday");
             } else if (schedule.date.includes("8月30日")) {
@@ -2707,4 +2707,5 @@ venueList.addEventListener("change", () => {
 });
 
 // ページ読み込み時に初期表示をロード
+
 window.addEventListener("load", loadInitialDisplay);
