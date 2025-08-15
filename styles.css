@@ -176,13 +176,13 @@ select option {
         font-size: 0.95em;
     }
 
-    .checkbox-list input[type="checkbox"] {
-        width: 18px;
-        height: 18px;
-    }
-
+.checkbox-list input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
 }
+
 #combinedScheduleList option {
     white-space: normal;
     line-height: 1.5;
 }
+
