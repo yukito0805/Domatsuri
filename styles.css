@@ -8,6 +8,7 @@ body {
     align-items: flex-start;
     min-height: 100vh;
     box-sizing: border-box;
+    font-size: 1.1em; /* ★全体フォントサイズ拡大 */
 }
 
 .container {
@@ -16,7 +17,6 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     width: 90%;
-    max-width: 400px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -28,75 +28,72 @@ body {
 
 label {
     display: block;
-    margin: 12px 0 6px;
+    margin: 14px 0 8px;
     font-weight: bold;
     color: #2d3748;
-    font-size: 1.1em;
+    font-size: 1.0em; /* ★大きめ */
 }
 
-input[type="text"] {
+input[type="text"],
+select,
+#accessInfoList,
+.schedule-list {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 2px solid #e2e8f0;
     border-radius: 8px;
-    font-size: 1em;
+    font-size: 1.2em;  /* ★文字大きめ */
+    line-height: 1.6;  /* ★上下余裕 */
+    min-height: 48px;  /* ★高さを確保 */
     box-sizing: border-box;
+    background-color: #f7fafc;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+select:focus,
+#accessInfoList:focus {
     border-color: #4c51bf;
     box-shadow: 0 0 8px rgba(76, 81, 191, 0.3);
     outline: none;
 }
 
 select {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #e2e8f0;
-    border-radius: 8px;
-    font-size: 1em;
-    background-color: #f7fafc;
-    box-sizing: border-box;
-    max-height: 250px;
+    max-height: 220px; /* ★リスト長め */
     overflow-y: auto;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-select:focus {
-    border-color: #4c51bf;
-    box-shadow: 0 0 8px rgba(76, 81, 191, 0.3);
-    outline: none;
-}
-
-select option {
-    padding: 8px;
+select option,
+#accessInfoList option {
+    padding: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
     background: #fff;
     color: #2d3748;
 }
 
 .checkbox-list {
-    max-height: 150px;
+    max-height: 180px; /* ★少し広め */
     overflow-y: auto;
     border: 2px solid #e2e8f0;
     border-radius: 8px;
     background-color: #f7fafc;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 10px;
 }
 
 .checkbox-list label {
     display: flex;
     align-items: center;
-    margin: 8px 0;
-    font-size: 1em;
+    margin: 10px 0;
+    font-size: 1.1em;
     cursor: pointer;
 }
 
 .checkbox-list input[type="checkbox"] {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+    margin-right: 12px;
+    width: 22px;
+    height: 22px;
     cursor: pointer;
 }
 
@@ -107,16 +104,16 @@ select option {
 .team-selection {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 #favoriteButton {
-    padding: 10px;
+    padding: 12px;
     background-color: #4c51bf;
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 1em;
+    font-size: 1.1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%;
@@ -131,58 +128,88 @@ select option {
     color: #2d3748;
 }
 
-#combinedScheduleList option.friday {
+.schedule-list {
+    max-height: 280px;
+    overflow-y: auto;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #f7fafc;
+    padding: 12px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.schedule-list div {
+    margin: 10px 0;
+    padding: 10px;
+    line-height: 1.6;
+    white-space: normal;
+}
+
+.schedule-list div.friday {
     background-color: #fefcbf;
 }
 
-#combinedScheduleList option.saturday {
+.schedule-list div.saturday {
     background-color: #bee3f8;
 }
 
-#combinedScheduleList option.sunday {
+.schedule-list div.sunday {
     background-color: #fed7d7;
 }
 
+/* モバイル対応 */
 @media (max-width: 430px) {
     body {
         padding: 5px;
+        font-size: 1em;
     }
 
     .container {
-        padding: 10px;
-        width: 95%;
+        padding: 12px;
+        width: 98%;
     }
 
     label {
-        font-size: 1em;
-        margin: 10px 0 5px;
+        font-size: 1.1em;
     }
 
-    input[type="text"], select, #favoriteButton {
-        font-size: 0.95em;
-        padding: 8px;
+    input[type="text"],
+    select,
+    #accessInfoList,
+    #favoriteButton,
+    .schedule-list {
+        font-size: 1.1em;
+        padding: 10px;
+        min-height: 44px;
     }
 
     select {
-        max-height: 120px;
+        max-height: 160px;
     }
 
     .checkbox-list {
-        max-height: 120px;
-        padding: 8px;
+        max-height: 140px;
+        padding: 10px;
     }
 
     .checkbox-list label {
-        font-size: 0.95em;
+        font-size: 1em;
     }
 
-.checkbox-list input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-}
+    .checkbox-list input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
 
-#combinedScheduleList option {
-    white-space: normal;
-    line-height: 1.5;
-}
+    .schedule-list {
+        max-height: 220px;
+        font-size: 1em;
+        padding: 10px;
+    }
 
+    .schedule-list div {
+        margin: 8px 0;
+        padding: 8px;
+    }
+}

@@ -176,7 +176,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "19:40頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "11:00頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "13:00頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:42頃" }
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:42頃" }
             ]
         },
         {
@@ -187,7 +187,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "14:42頃" },
                 { date: "2025年8月30日 (土)", venue: "ナディアパーク矢場公園会場", time: "16:54頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "11:12頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:12頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:12頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "15:12頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "17:30頃" }
             ]
@@ -207,7 +207,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "バリ・バリ平針パレード会場", time: "14:54頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "16:55頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "10:36頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:42頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:42頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "14:42頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "16:42頃" }
             ]
@@ -220,7 +220,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "12:20頃" },
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "14:12頃" },
                 { date: "2025年8月30日 (土)", venue: "ナディアパーク矢場公園会場", time: "16:12頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "11:30頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "11:30頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅西銀座通パレード会場", time: "14:18頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "16:24頃" }
             ]
@@ -292,7 +292,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "18:36頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:18頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "13:20頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:06頃" }
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:06頃" }
             ]
         },
         {
@@ -354,7 +354,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "ぐるめぱーく会場", time: "18:12頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:12頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "13:15頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:24頃" }
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:24頃" }
             ]
         },
         {
@@ -369,7 +369,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "19:00頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "10:00頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "12:00頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:30頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:30頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "16:06頃" }
             ]
         },
@@ -385,7 +385,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "16:18頃" },
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "18:12頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:48頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:54頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:54頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "15:54頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "17:45頃" }
             ]
@@ -525,7 +525,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "名古屋城会場", time: "16:12頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "18:10頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "11:36頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:36頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:36頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "15:36頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "17:18頃" }
             ]
@@ -623,7 +623,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "16:06頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "18:05頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋城会場", time: "11:48頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:48頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:48頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "15:48頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "17:36頃" }
             ]
@@ -667,7 +667,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "サカエヒロバス会場", time: "16:54頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "20:20頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "10:48頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:48頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:48頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "14:50頃" },
                 { date: "2025年8月31日 (日)", venue: "ナディアパーク矢場公園会場", time: "16:54頃" }
             ]
@@ -693,7 +693,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "16:12頃" },
                 { date: "2025年8月30日 (土)", venue: "ぐるめぱーく会場", time: "18:18頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "12:20頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:18頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:18頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "16:18頃" }
             ]
         },
@@ -743,7 +743,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "16:54頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "20:05頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "12:48頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:48頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:48頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "16:36頃" }
             ]
         },
@@ -792,7 +792,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "16:30頃" },
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "18:42頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:06頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:06頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:06頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "15:06頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "17:12頃" }
             ]
@@ -808,7 +808,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "ぐるめぱーく会場", time: "17:00頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "09:25頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:24頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:24頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:24頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "15:24頃" }
             ]
         },
@@ -822,7 +822,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "14:54頃" },
                 { date: "2025年8月30日 (土)", venue: "名古屋駅前JRタワーズガーデン会場", time: "17:06頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "10:54頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:18頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:18頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "15:36頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "17:35頃" }
             ]
@@ -889,7 +889,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "ナディアパーク矢場公園会場", time: "14:24頃" },
                 { date: "2025年8月30日 (土)", venue: "イオンモール熱田会場", time: "16:24頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "10:24頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:36頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:36頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "14:36頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "16:36頃" }
             ]
@@ -1037,7 +1037,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "サカエヒロバス会場", time: "16:36頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "10:18頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "12:10頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:12頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:12頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "16:12頃" }
             ]
         },
@@ -1076,7 +1076,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "大須観音会場", time: "12:48頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "14:50頃" },
                 { date: "2025年8月30日 (土)", venue: "ぐるめぱーく会場", time: "16:48頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "11:48頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "11:48頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "14:30頃" },
                 { date: "2025年8月31日 (日)", venue: "ナディアパーク矢場公園会場", time: "16:30頃" }
             ]
@@ -1122,7 +1122,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "名古屋駅前JRタワーズガーデン会場", time: "16:06頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "19:25頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "09:50頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "11:54頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "11:54頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "13:54頃" },
                 { date: "2025年8月31日 (日)", venue: "サカエヒロバス会場", time: "15:54頃" }
             ]
@@ -1173,7 +1173,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "19:30頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "11:48頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "14:06頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:42頃" }
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:42頃" }
             ]
         },
         {
@@ -1207,7 +1207,7 @@ const eventData = {
             schedules: [
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "11:24頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "13:18頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:18頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:18頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "17:50頃" }
             ]
         },
@@ -1245,7 +1245,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "バリ・バリ平針パレード会場", time: "14:30頃" },
                 { date: "2025年8月30日 (土)", venue: "サカエヒロバス会場", time: "16:30頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "10:12頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:12頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:12頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "14:15頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "16:18頃" }
             ]
@@ -1305,7 +1305,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "17:18頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "11:30頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "13:30頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "16:18頃" }
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "16:18頃" }
             ]
         },
         {
@@ -1330,7 +1330,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "名古屋駅前JRタワーズガーデン会場", time: "16:18頃" },
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "18:24頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋城会場", time: "10:48頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:54頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:54頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "14:54頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "16:45頃" }
             ]
@@ -1386,7 +1386,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "名古屋城会場", time: "16:24頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "11:06頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "13:12頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:12頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:12頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "17:12頃" }
             ]
         },
@@ -1484,7 +1484,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "14:35頃" },
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "16:48頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "12:12頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:24頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:24頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "16:30頃" }
             ]
         },
@@ -1510,7 +1510,7 @@ const eventData = {
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:30頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "12:54頃" },
                 { date: "2025年8月31日 (日)", venue: "サカエヒロバス会場", time: "13:54頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "15:36頃" }
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "15:36頃" }
             ]
         },
         {
@@ -1680,7 +1680,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "15:18頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "10:00頃" },
                 { date: "2025年8月31日 (日)", venue: "ナディアパーク矢場公園会場", time: "12:00頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:06頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:06頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "16:06頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "17:05頃" }
             ]
@@ -1782,7 +1782,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "イオンモール熱田会場", time: "16:30頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "10:24頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "12:30頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:36頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:36頃" },
                 { date: "2025年8月31日 (日)", venue: "サカエヒロバス会場", time: "16:36頃" }
             ]
         },
@@ -1812,7 +1812,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "イオンモール熱田会場", time: "16:42頃" },
                 { date: "2025年8月31日 (日)", venue: "久屋大通公園会場 メインステージ", time: "10:30頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "12:54頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "14:54頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "14:54頃" },
                 { date: "2025年8月31日 (日)", venue: "サカエヒロバス会場", time: "16:54頃" }
             ]
         },
@@ -1907,7 +1907,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "12:30頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "14:30頃" },
                 { date: "2025年8月30日 (土)", venue: "名古屋駅前JRタワーズガーデン会場", time: "16:30頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "11:36頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "11:36頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "13:36頃" },
                 { date: "2025年8月31日 (日)", venue: "ナディアパーク矢場公園会場", time: "15:36頃" }
             ]
@@ -2069,7 +2069,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "イオンモール熱田会場", time: "16:18頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "19:50頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋城会場", time: "10:06頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:06頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:06頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "14:12頃" },
                 { date: "2025年8月31日 (日)", venue: "ナディアパーク矢場公園会場", time: "16:06頃" }
             ]
@@ -2082,7 +2082,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "14:30頃" },
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "16:30頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:00頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:18頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:18頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋城会場", time: "15:00頃" }
             ]
         },
@@ -2154,7 +2154,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "11:18頃" },
                 { date: "2025年8月30日 (土)", venue: "名古屋城会場", time: "13:18頃" },
                 { date: "2025年8月30日 (土)", venue: "イオンモール熱田会場", time: "15:18頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "11:42頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "11:42頃" },
                 { date: "2025年8月31日 (日)", venue: "ぐるめぱーく会場", time: "13:42頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "15:42頃" }
             ]
@@ -2168,7 +2168,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "ぐるめぱーく会場", time: "16:42頃" },
                 { date: "2025年8月30日 (土)", venue: "オアシス21会場", time: "18:18頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋駅前JRタワーズガーデン会場", time: "10:00頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:06頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:06頃" },
                 { date: "2025年8月31日 (日)", venue: "オアシス21会場", time: "14:00頃" },
                 { date: "2025年8月31日 (日)", venue: "サカエヒロバス会場", time: "16:06頃" }
             ]
@@ -2206,7 +2206,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "名古屋駅前JRタワーズガーデン会場", time: "15:12頃" },
                 { date: "2025年8月30日 (土)", venue: "久屋大通公園会場 メインステージ", time: "17:10頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋城会場", time: "10:24頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "12:24頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "12:24頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "14:24頃" },
                 { date: "2025年8月31日 (日)", venue: "サカエヒロバス会場", time: "16:24頃" }
             ]
@@ -2219,7 +2219,7 @@ const eventData = {
                 { date: "2025年8月30日 (土)", venue: "テレビ塔パレード会場", time: "15:06頃" },
                 { date: "2025年8月30日 (土)", venue: "名古屋駅前JRタワーズガーデン会場", time: "17:18頃" },
                 { date: "2025年8月31日 (日)", venue: "テレビ塔パレード会場", time: "11:42頃" },
-                { date: "2025年8月31日 (日)", venue: "どえりゃ〜どうどくパレード会場", time: "13:42頃" },
+                { date: "2025年8月31日 (日)", venue: "どえりゃ～どうとくパレード会場", time: "13:42頃" },
                 { date: "2025年8月31日 (日)", venue: "名古屋城会場", time: "15:42頃" },
                 { date: "2025年8月31日 (日)", venue: "イオンモール熱田会場", time: "17:42頃" }
             ]
@@ -2265,9 +2265,79 @@ const venueList = document.getElementById("venueList");
 const filteredTeamList = document.getElementById("filteredTeamList");
 const favoriteButton = document.getElementById("favoriteButton");
 const favoriteTeamList = document.getElementById("favoriteTeamList");
+const accessInfoList = document.getElementById("accessInfoList");
 
 // お気に入りチームを管理（ローカルストレージから取得）
 let favorites = JSON.parse(localStorage.getItem("favoriteTeams")) || [];
+
+// 会場とアクセス情報のマッピング
+const venueAccessInfo = {
+    "久屋大通公園会場 メインステージ": [
+        "地下鉄名城線『矢場町』駅 2･5･6出口から徒歩1分",
+        "東山線･名城線『栄』駅 15番出口から徒歩3分"
+    ],
+    "サカエヒロバス会場": [
+        "地下鉄東山線・名城線『栄』駅 13・15・16番出口すぐ"
+    ],
+    "光の広場会場": [
+        "地下鉄名城線『矢場町』駅 5･6出口から徒歩1分"
+    ],
+    "ぐるめぱーく会場": [
+        "地下鉄名城線『矢場町』駅 2・5・6出口から徒歩1分",
+        "東山線・名城線『栄』駅 15番出口から徒歩3分"
+    ],
+    "テレビ塔パレード会場": [
+        "地下鉄名城線・桜通線『久屋大通』駅 セントラルパーク7A・7B・10A・10B出口 徒歩1分"
+    ],
+    "オアシス21会場": [
+        "地下鉄東山線・名城線『栄』駅東改札出てすぐ"
+    ],
+    "ナディアパーク矢場公園会場": [
+        "地下鉄名城線『矢場町』駅5番出口 徒歩3分"
+    ],
+    "名古屋駅前JRタワーズガーデン会場": [
+        "JR名古屋駅 地下鉄東山線・桜通線『名古屋駅』 名鉄名古屋駅 近鉄名古屋駅 徒歩2分"
+    ],
+    "名古屋城会場": [
+        "地下鉄名城線『名古屋城』駅7番出口 徒歩10分"
+    ],
+    "大須観音会場": [
+        "地下鉄名城線『上前津』駅9番出口 徒歩10分",
+        "地下鉄鶴舞線『大須観音』駅2番出口 徒歩3分"
+    ],
+    "どえりゃ～どうとくパレード会場": [
+        "名鉄常滑線道徳駅(普通のみ停車)下車 徒歩5分",
+        "市バス栄21 道徳通下車 徒歩2分",
+        "市バス南巡回 道徳新町下車徒歩0分(当日交通規制時間帯は迂回します。)"
+    ],
+    "バリ・バリ平針パレード会場": [
+        "地下鉄鶴舞線『平針』駅1番出口から受付は西（左へ）徒歩3分"
+    ],
+    "イオンモール熱田会場": [
+        "金山総合駅から南東に徒歩15分"
+    ],
+    "名古屋駅西銀座通パレード会場": [
+        "地下鉄桜通線『太閤通』駅2番出口 北へ徒歩4分"
+    ]
+};
+
+// ダミーの会場リスト（実際のデータがない場合用）
+const dummyVenues = [
+    "久屋大通公園会場 メインステージ",
+    "サカエヒロバス会場",
+    "光の広場会場",
+    "ぐるめぱーく会場",
+    "テレビ塔パレード会場",
+    "オアシス21会場",
+    "ナディアパーク矢場公園会場",
+    "名古屋駅前JRタワーズガーデン会場",
+    "名古屋城会場",
+    "大須観音会場",
+    "どえりゃ～どうとくパレード会場",
+    "バリ・バリ平針パレード会場",
+    "イオンモール熱田会場",
+    "名古屋駅西銀座通パレード会場"
+];
 
 // 日付と時間をパースして比較可能な形式に変換
 function parseDateTime(dateStr, timeStr) {
@@ -2369,9 +2439,9 @@ function updateSchedules(selectedTeams) {
         scheduleOption.text = "チームを選択してスケジュールを表示";
         scheduleList.appendChild(scheduleOption);
         
-        const combinedOption = document.createElement("option");
-        combinedOption.text = "複数チームを選択して合算スケジュールを表示";
-        combinedScheduleList.appendChild(combinedOption);
+        const div = document.createElement("div");
+        div.textContent = "複数チームを選択して合算スケジュールを表示";
+        combinedScheduleList.appendChild(div);
         return;
     }
     
@@ -2413,23 +2483,23 @@ function updateSchedules(selectedTeams) {
         return dateTimeA - dateTimeB;
     });
     
-    // 合算スケジュールをリストボックスに追加（日付ごとの色分け）
+    // 合算スケジュールをリストに追加（日付ごとの色分け）
     if (combinedSchedules.length === 0) {
-        const combinedOption = document.createElement("option");
-        combinedOption.text = "スケジュールが見つかりません";
-        combinedScheduleList.appendChild(combinedOption);
+        const div = document.createElement("div");
+        div.textContent = "スケジュールが見つかりません";
+        combinedScheduleList.appendChild(div);
     } else {
         combinedSchedules.forEach(({ teamName, schedule }) => {
-            const option = document.createElement("option");
-            option.innerHTML = `${schedule.date} ${schedule.time} ${teamName}<br>${schedule.venue}`;
+            const div = document.createElement("div");
+            div.innerHTML = `${schedule.date} ${schedule.time} ${teamName}<br>${schedule.venue}`;
             if (schedule.date.includes("8月29日")) {
-                option.classList.add("friday");
+                div.classList.add("friday");
             } else if (schedule.date.includes("8月30日")) {
-                option.classList.add("saturday");
+                div.classList.add("saturday");
             } else if (schedule.date.includes("8月31日")) {
-                option.classList.add("sunday");
+                div.classList.add("sunday");
             }
-            combinedScheduleList.appendChild(option);
+            combinedScheduleList.appendChild(div);
         });
     }
 }
@@ -2443,24 +2513,31 @@ function loadInitialDisplay() {
     const teams = eventData[eventName] || [];
     updateTeamList(teams);
     
-    // すべての会場を取得（重複除去）
-    const venues = [...new Set(teams.flatMap(team => 
-        team.schedules.map(schedule => schedule.venue)
-    ))];
-    
-    // 会場をリストボックスに追加
+    // 会場をリストボックスに追加（ダミー会場を使用）
     venueList.innerHTML = "";
-    if (venues.length === 0) {
-        const venueOption = document.createElement("option");
-        venueOption.text = "会場が見つかりません";
-        venueList.appendChild(venueOption);
-    } else {
-        venues.forEach(venue => {
+    if (teams.length === 0) {
+        dummyVenues.forEach(venue => {
             const option = document.createElement("option");
             option.text = venue;
             option.value = venue;
             venueList.appendChild(option);
         });
+    } else {
+        const venues = [...new Set(teams.flatMap(team => 
+            team.schedules.map(schedule => schedule.venue)
+        ))];
+        if (venues.length === 0) {
+            const venueOption = document.createElement("option");
+            venueOption.text = "会場が見つかりません";
+            venueList.appendChild(venueOption);
+        } else {
+            venues.forEach(venue => {
+                const option = document.createElement("option");
+                option.text = venue;
+                option.value = venue;
+                venueList.appendChild(option);
+            });
+        }
     }
     
     // その他のリストボックスを初期化
@@ -2470,14 +2547,19 @@ function loadInitialDisplay() {
     scheduleList.appendChild(scheduleOption);
     
     combinedScheduleList.innerHTML = "";
-    const combinedOption = document.createElement("option");
-    combinedOption.text = "複数チームを選択して合算スケジュールを表示";
-    combinedScheduleList.appendChild(combinedOption);
+    const div = document.createElement("div");
+    div.textContent = "複数チームを選択して合算スケジュールを表示";
+    combinedScheduleList.appendChild(div);
     
     filteredTeamList.innerHTML = "";
     const filteredOption = document.createElement("option");
     filteredOption.text = "会場を選択してチームを表示";
     filteredTeamList.appendChild(filteredOption);
+    
+    accessInfoList.innerHTML = "";
+    const accessOption = document.createElement("option");
+    accessOption.text = "会場を選択してアクセス方法を表示";
+    accessInfoList.appendChild(accessOption);
     
     updateFavoriteButton();
     updateFavoriteTeamList();
@@ -2491,6 +2573,7 @@ eventInput.addEventListener("input", () => {
     combinedScheduleList.innerHTML = "";
     venueList.innerHTML = "";
     filteredTeamList.innerHTML = "";
+    accessInfoList.innerHTML = "";
     favoriteButton.disabled = true;
     
     // 入力されたイベント名を取得
@@ -2506,9 +2589,9 @@ eventInput.addEventListener("input", () => {
         scheduleOption.text = "チームを選択してスケジュールを表示";
         scheduleList.appendChild(scheduleOption);
         
-        const combinedOption = document.createElement("option");
-        combinedOption.text = "複数チームを選択して合算スケジュールを表示";
-        combinedScheduleList.appendChild(combinedOption);
+        const divCombined = document.createElement("div");
+        divCombined.textContent = "複数チームを選択して合算スケジュールを表示";
+        combinedScheduleList.appendChild(divCombined);
         
         const venueOption = document.createElement("option");
         venueOption.text = "イベントを入力して会場を表示";
@@ -2517,6 +2600,11 @@ eventInput.addEventListener("input", () => {
         const filteredOption = document.createElement("option");
         filteredOption.text = "会場を選択してチームを表示";
         filteredTeamList.appendChild(filteredOption);
+        
+        const accessOption = document.createElement("option");
+        accessOption.text = "会場を選択してアクセス方法を表示";
+        accessInfoList.appendChild(accessOption);
+        
         updateFavoriteTeamList();
         return;
     }
@@ -2531,20 +2619,29 @@ eventInput.addEventListener("input", () => {
         teamList.appendChild(div);
         
         const scheduleOption = document.createElement("option");
-        scheduleOption.text = "チームを選択してスケジュールを表示";
+        scheduleOption.text = "スケジュールが見つかりません";
         scheduleList.appendChild(scheduleOption);
         
-        const combinedOption = document.createElement("option");
-        combinedOption.text = "複数チームを選択して合算スケジュールを表示";
-        combinedScheduleList.appendChild(combinedOption);
+        const divCombined = document.createElement("div");
+        divCombined.textContent = "複数チームを選択して合算スケジュールを表示";
+        combinedScheduleList.appendChild(divCombined);
         
-        const venueOption = document.createElement("option");
-        venueOption.text = "イベントを入力して会場を表示";
-        venueList.appendChild(venueOption);
+        // ダミー会場を表示
+        dummyVenues.forEach(venue => {
+            const option = document.createElement("option");
+            option.text = venue;
+            option.value = venue;
+            venueList.appendChild(option);
+        });
         
         const filteredOption = document.createElement("option");
         filteredOption.text = "会場を選択してチームを表示";
         filteredTeamList.appendChild(filteredOption);
+        
+        const accessOption = document.createElement("option");
+        accessOption.text = "会場を選択してアクセス方法を表示";
+        accessInfoList.appendChild(accessOption);
+        
         updateFavoriteTeamList();
         return;
     }
@@ -2558,12 +2655,21 @@ eventInput.addEventListener("input", () => {
     ))];
     
     // 会場をリストボックスに追加
-    venues.forEach(venue => {
-        const option = document.createElement("option");
-        option.text = venue;
-        option.value = venue;
-        venueList.appendChild(option);
-    });
+    if (venues.length === 0) {
+        dummyVenues.forEach(venue => {
+            const option = document.createElement("option");
+            option.text = venue;
+            option.value = venue;
+            venueList.appendChild(option);
+        });
+    } else {
+        venues.forEach(venue => {
+            const option = document.createElement("option");
+            option.text = venue;
+            option.value = venue;
+            venueList.appendChild(option);
+        });
+    }
     
     updateFavoriteButton();
     updateFavoriteTeamList();
@@ -2657,6 +2763,7 @@ favoriteButton.addEventListener("click", () => {
 venueList.addEventListener("change", () => {
     // フィルタリングされたチームリストをクリア
     filteredTeamList.innerHTML = "";
+    accessInfoList.innerHTML = "";
     
     // 選択された会場を取得
     const selectedVenue = venueList.value;
@@ -2664,8 +2771,20 @@ venueList.addEventListener("change", () => {
         const filteredOption = document.createElement("option");
         filteredOption.text = "会場を選択してチームを表示";
         filteredTeamList.appendChild(filteredOption);
+        
+        const accessOption = document.createElement("option");
+        accessOption.text = "会場を選択してアクセス方法を表示";
+        accessInfoList.appendChild(accessOption);
         return;
     }
+    
+    // アクセス情報を表示
+    const accessInfo = venueAccessInfo[selectedVenue] || ["アクセス情報がありません"];
+    accessInfo.forEach(info => {
+        const option = document.createElement("option");
+        option.text = info;
+        accessInfoList.appendChild(option);
+    });
     
     // イベント名を取得
     const eventName = eventInput.value.trim();
@@ -2707,7 +2826,4 @@ venueList.addEventListener("change", () => {
 });
 
 // ページ読み込み時に初期表示をロード
-
 window.addEventListener("load", loadInitialDisplay);
-
-
