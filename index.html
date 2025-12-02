@@ -18,7 +18,7 @@
     }
 
     header {
-      padding: 12px 16px;
+      padding: 16px 24px;
       background: linear-gradient(135deg, #ff7a00, #ff3b3b);
       color: #fff;
       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
@@ -26,52 +26,52 @@
 
     header h1 {
       margin: 0;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
     }
 
     header p {
       margin: 4px 0 0;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       opacity: 0.9;
     }
 
     main {
       max-width: 1000px;
-      margin: 12px auto 24px;
-      padding: 0 8px;
+      margin: 16px auto 32px;
+      padding: 0 16px;
     }
 
     .search-panel {
       background: #fff;
-      padding: 12px;
+      padding: 16px;
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-      margin-bottom: 12px;
+      margin-bottom: 16px;
     }
 
     .search-panel h2 {
-      margin: 0 0 8px;
-      font-size: 1rem;
+      margin: 0 0 12px;
+      font-size: 1.1rem;
     }
 
     .filters {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 8px;
-      margin-bottom: 6px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 8px;
     }
 
     label {
       display: flex;
       flex-direction: column;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       color: #555;
       gap: 4px;
     }
 
     input[type="text"],
     select {
-      padding: 6px 10px;
+      padding: 8px 10px;
       border-radius: 999px;
       border: 1px solid #ccc;
       font-size: 0.9rem;
@@ -91,7 +91,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       color: #666;
       margin-top: 4px;
       gap: 8px;
@@ -101,8 +101,8 @@
     .reset-btn {
       border: none;
       border-radius: 999px;
-      padding: 4px 10px;
-      font-size: 0.75rem;
+      padding: 6px 12px;
+      font-size: 0.8rem;
       cursor: pointer;
       background: #eee;
       transition: background 0.15s, transform 0.05s;
@@ -120,14 +120,15 @@
       background: #fff;
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-      padding: 8px 8px 10px;
-      margin-bottom: 12px;
-      overflow: hidden;
+      padding: 8px 12px 12px;
+      overflow-x: auto;
+      margin-bottom: 16px;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
+      min-width: 700px;
     }
 
     thead {
@@ -138,15 +139,15 @@
     }
 
     th, td {
-      padding: 6px 8px;
-      font-size: 0.85rem;
+      padding: 8px 10px;
+      font-size: 0.9rem;
       text-align: left;
       border-bottom: 1px solid #eee;
       white-space: nowrap;
     }
 
     th {
-      font-size: 0.7rem;
+      font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.04em;
       color: #999;
@@ -160,7 +161,7 @@
       display: inline-block;
       padding: 2px 8px;
       border-radius: 999px;
-      font-size: 0.7rem;
+      font-size: 0.75rem;
       background: #ffe4cc;
       color: #994400;
     }
@@ -169,28 +170,27 @@
       display: inline-block;
       padding: 2px 8px;
       border-radius: 999px;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       background: #e8f0ff;
       color: #1c4fd7;
     }
 
     .note {
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       color: #666;
-      white-space: normal;
     }
 
     .empty {
-      padding: 12px;
+      padding: 16px;
       text-align: center;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       color: #777;
     }
 
     .small-note {
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       color: #666;
-      margin: 4px 0 6px;
+      margin: 4px 0 8px;
     }
 
     .fav-col {
@@ -213,7 +213,7 @@
     }
 
     .count-pill {
-      font-size: 0.7rem;
+      font-size: 0.75rem;
       padding: 2px 8px;
       border-radius: 999px;
       background: #eee;
@@ -221,55 +221,11 @@
     }
 
     @media (max-width: 640px) {
-      header {
-        padding: 10px 12px;
-      }
       header h1 {
-        font-size: 1.05rem;
+        font-size: 1.1rem;
       }
       header p {
-        font-size: 0.7rem;
-      }
-      main {
-        padding: 0 6px;
-      }
-      .table-wrapper {
-        padding: 6px 4px 8px;
-      }
-      table, thead, tbody, th, td, tr {
-        display: block;
-      }
-      thead {
-        display: none;
-      }
-      tbody tr {
-        margin-bottom: 8px;
-        border-radius: 12px;
-        border: 1px solid #eee;
-        padding: 6px 8px;
-        background: #fff;
-      }
-      td {
-        border-bottom: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 6px;
-        white-space: normal;
-      }
-      td::before {
-        content: attr(data-label);
-        flex: 0 0 auto;
-        font-weight: 600;
-        font-size: 0.68rem;
-        color: #888;
-      }
-      td.fav-col {
-        justify-content: flex-start;
-      }
-      td.fav-col::before {
-        content: "選択";
-        margin-right: 4px;
+        font-size: 0.8rem;
       }
     }
   </style>
@@ -277,7 +233,7 @@
 <body>
   <header>
     <h1>瑞浪バサラカーニバル タイムテーブル検索</h1>
-    <p>本祭（2025年12月14日）／全会場 ＋ U-15選手権 ／ 見たいチームだけマイリストに</p>
+    <p>本祭（2025年12月14日）／全会場 ＋ U-15選手権 ／ 気になるチームをチェックしてマイリスト作成</p>
   </header>
 
   <main>
@@ -293,6 +249,7 @@
           会場
           <select id="stage">
             <option value="">すべて</option>
+            <option value="__FAV__">マイタイムテーブル（チェックしたチームのみ）</option>
             <option value="U-15選手権">U-15選手権</option>
             <option value="第1会場 公園線 北会場">第1会場 公園線 北会場</option>
             <option value="第2会場 公園線 中央会場">第2会場 公園線 中央会場</option>
@@ -320,7 +277,7 @@
         <h2>チェックしたチームのマイタイムテーブル</h2>
         <span class="count-pill" id="favCount">選択 0 件</span>
       </div>
-      <p class="small-note">※ 上の一覧でチェックを入れると、ここに会場込みで一覧表示されます（時間順）。</p>
+      <p class="small-note">※ 上の一覧でチェックを入れると、ここに会場込みで一覧表示されます（会場・時間順）。</p>
       <div id="favoritesWrapper"></div>
     </section>
   </main>
@@ -2861,14 +2818,19 @@ const EVENTS = [
       const keyword = $keyword.value.trim().toLowerCase();
       const stage = $stage.value;
 
-      const filtered = EVENTS.filter((ev) => {
-        if (stage && ev.stage !== stage) return false;
+      let base = EVENTS;
 
+      if (stage === "__FAV__") {
+        base = EVENTS.filter(ev => selectedIds.has(ev.id));
+      } else if (stage) {
+        base = EVENTS.filter(ev => ev.stage === stage);
+      }
+
+      const filtered = base.filter((ev) => {
         if (keyword) {
           const text = `${ev.group} ${ev.title} ${ev.note} ${ev.stage} ${ev.day}`.toLowerCase();
           if (!text.includes(keyword)) return false;
         }
-
         return true;
       });
 
@@ -2916,18 +2878,18 @@ const EVENTS = [
           const checkedAttr = selectedIds.has(ev.id) ? " checked" : "";
           return `
           <tr>
-            <td class="fav-col" data-label="選択">
+            <td class="fav-col">
               <input type="checkbox" class="fav-checkbox" data-id="${ev.id}"${checkedAttr} />
             </td>
-            <td data-label="日程">
+            <td>
               <span class="badge-day">${ev.day}</span><br />
               <span style="font-size:0.75rem; color:#888;">${ev.date}</span>
             </td>
-            <td data-label="時間">${ev.start}〜${ev.end || ""}</td>
-            <td data-label="会場"><span class="badge-stage">${ev.stage}</span></td>
-            <td data-label="チーム">${ev.group}</td>
-            <td data-label="演目">${ev.title || ""}</td>
-            <td class="note" data-label="備考">${ev.note || ""}</td>
+            <td>${ev.start}〜${ev.end || ""}</td>
+            <td><span class="badge-stage">${ev.stage}</span></td>
+            <td>${ev.group}</td>
+            <td>${ev.title || ""}</td>
+            <td class="note">${ev.note || ""}</td>
           </tr>
         `;
         })
@@ -2981,13 +2943,13 @@ const EVENTS = [
       const rowsHtml = sorted
         .map(ev => `
           <tr>
-            <td data-label="日程">
+            <td>
               <span class="badge-day">${ev.day}</span><br />
               <span style="font-size:0.75rem; color:#888;">${ev.date}</span>
             </td>
-            <td data-label="時間">${ev.start}〜${ev.end || ""}</td>
-            <td data-label="会場"><span class="badge-stage">${ev.stage}</span></td>
-            <td data-label="チーム">${ev.group}</td>
+            <td>${ev.start}〜${ev.end || ""}</td>
+            <td><span class="badge-stage">${ev.stage}</span></td>
+            <td>${ev.group}</td>
           </tr>
         `)
         .join("");
